@@ -1,6 +1,7 @@
 -- Create departments table
 CREATE TABLE departments (
-    dept_no VARCHAR(4) PRIMARY KEY,
+    dept_no VARCHAR(4) PRIMARY KEY, 
+    FOREIGN KEY (dept_no) REFERENCES dept_emp(dept_no),
     dept_name VARCHAR(40) NOT NULL UNIQUE
 );
 
