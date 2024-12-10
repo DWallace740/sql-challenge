@@ -1,7 +1,6 @@
 -- Create departments table
 CREATE TABLE departments (
-    dept_no VARCHAR(4) PRIMARY KEY, 
-    FOREIGN KEY (dept_no) REFERENCES dept_emp(dept_no),
+    dept_no VARCHAR(4) PRIMARY KEY,
     dept_name VARCHAR(40) NOT NULL UNIQUE
 );
 
@@ -11,17 +10,14 @@ CREATE TABLE titles (
     title VARCHAR(40) NOT NULL UNIQUE
 );
 
--- Define the ENUM type
-CREATE TYPE gender_enum AS ENUM ('M', 'F');
-
--- Create the employees table
+-- Create employees table
 CREATE TABLE employees (
     emp_no INT PRIMARY KEY,
     emp_title_id CHAR(5),
     birth_date DATE,
     first_name VARCHAR(20) NOT NULL,
     last_name VARCHAR(20) NOT NULL,
-    sex gender_enum NOT NULL,  -- Use the ENUM type here
+    sex gender_enum NOT NULL,
     hire_date DATE,
     FOREIGN KEY (emp_title_id) REFERENCES titles(title_id)
 );
@@ -51,3 +47,5 @@ CREATE TABLE salaries (
     PRIMARY KEY (emp_no),
     FOREIGN KEY (emp_no) REFERENCES employees(emp_no)
 );
+
+
