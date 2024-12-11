@@ -14,16 +14,16 @@ This project involved three main stages:
 - Data Engineering: Populating the database with employee records from CSV files.
 - Data Analysis: Using SQL queries to identify trends and extract insights from the data.
 
-### Project Structure
+#### Project Structure
 
-Files and Folders
+#### Files and Folders
 
-- EmployeeCSVdata/data/Contains six CSV files representing the employee data for analysis.
-- SCHEMA.sqlSQL script defining the database schema, including table relationships, primary keys, and foreign keys.
-- Data Analysis_Questions_Code.pgsqlSQL queries used to analyze the data and answer specific business questions.
-- Data Analysis_Questions_Results.xlsxAn Excel file summarizing the results of the SQL queries.
-- Data_Analysis_Summary.mdA written summary of key insights and recommendations based on the analysis (included below).
-- README.mdThis document, providing an overview of the project and its outcomes.
+- EmployeeCSVdata/data/: Contains six CSV files representing the employee data for analysis.
+- SCHEMA.sql: Script defining the database schema, including table relationships, primary keys, and foreign keys.
+- Data Analysis_Questions_Code.pgsql/sql (different file type): Queries used to analyze the data and answer specific business questions.
+- Data Analysis_Questions_Results.xlsx: An Excel file - summarizing the results of the SQL queries.
+- Data Analysis_Summary.pdf
+- README.md: This document, providing an overview of the project and its outcomes.
 
 ## Key Insights and Recommendations
 
@@ -61,11 +61,11 @@ Files and Folders
 
 - Strategic Growth Planning: Leverage lessons from the 1986 hiring surge to prepare for similar expansion opportunities.
 
-## Conclusion
+### Conclusion
 
 The analysis of historical employee data from Pewlett Hackard offers valuable insights into hiring trends, department structures, and salary patterns. These findings can guide future workforce planning and organizational growth strategies, ensuring continued success for the company.
 
-## Resources & Support
+### Resources & Support
 
 - ChatGPT (AI Assistant): Assisted with structuring queries, and debugging code.
 - Xpert Learning Assistant: Assisted with refining my understanding of coding, how to use PgAdmin 4 and project requirements. 
