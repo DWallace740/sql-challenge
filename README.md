@@ -30,7 +30,7 @@ This project involved three main stages:
         - Data Paths.sql: Script loading the data into the tables from the six CSV files
 - Folder - Part 3 Data Analysis 
     - Contains:
-        -Data Analysis_Questions_Code.pgsql/sql (different file type): Queries used to analyze the data and answer specific business questions.
+        - Data Analysis_Questions_Code.pgsql/sql (different file type): Queries used to analyze the data and answer specific business questions.
         - Data Analysis_Questions_Results.xlsx: An Excel file - summarizing the results of the SQL queries.
 
 
