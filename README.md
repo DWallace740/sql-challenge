@@ -18,12 +18,21 @@ This project involved three main stages:
 
 #### Files and Folders
 
-- EmployeeCSVdata/data/: Contains six CSV files representing the employee data for analysis.
-- SCHEMA.sql: Script defining the database schema, including table relationships, primary keys, and foreign keys.
-- Data Analysis_Questions_Code.pgsql/sql (different file type): Queries used to analyze the data and answer specific business questions.
-- Data Analysis_Questions_Results.xlsx: An Excel file - summarizing the results of the SQL queries.
-- Data Analysis_Summary.pdf
+- Data Analysis_Summary.pdf: This is a written summary in a pdf file for ease of over information retrieval.
 - README.md: This document, providing an overview of the project and its outcomes.
+- Folder - EmployeeCSVdata:
+    -Folder - Data: Contains six CSV files representing the employee data for analysis.
+- Folder - Part 1 Data Modeling:
+    - Contains: Module_9_challenge_ERD(1).pdf - This is the Entity Relationship Diagram of the tabes.
+- Folder - Part 2 Data Engineering: 
+    - Contains: 
+        - SCHEMA.sql: Script defining the database schema, including table relationships, primary keys, and foreign keys.
+        - Data Paths.sql: Script loading the data into the tables from the six CSV files
+- Folder - Part 3 Data Analysis 
+    - Contains:
+        -Data Analysis_Questions_Code.pgsql/sql (different file type): Queries used to analyze the data and answer specific business questions.
+        - Data Analysis_Questions_Results.xlsx: An Excel file - summarizing the results of the SQL queries.
+
 
 ## Key Insights and Recommendations
 
